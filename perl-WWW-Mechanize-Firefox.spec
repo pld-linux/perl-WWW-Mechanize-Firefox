@@ -19,6 +19,7 @@ URL:		http://search.cpan.org/dist/WWW-Mechanize-Firefox/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
+BuildRequires:	perl(HTML::Selector::XPath)
 BuildRequires:	perl(MozRepl::RemoteObject)
 BuildRequires:	perl(Object::Import)
 BuildRequires:	perl(Shell::Command)
