@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# perform "make test" (require Internet connection)
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	WWW
 %define	pnam	Mechanize-Firefox
 Summary:	WWW::Mechanize::Firefox - use Firefox as if it were WWW::Mechanize 
